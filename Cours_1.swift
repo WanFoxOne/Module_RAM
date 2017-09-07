@@ -157,7 +157,19 @@ class NomDeLaClasse { // Nom de la classe avec une majuscule obligatoire
 }
 
 // Création d'une instance de la classe
-var instanceDeLaClass = NomDeLaClasse();
+let instanceDeLaClass = NomDeLaClasse();
 
 // Accès à la variable publique de la classe
 print(instanceDeLaClass.VariableTest);
+
+// Modification de la variable dans l'instance (et non dans la classe directement)
+instanceDeLaClass.VariableTest = "Test YOLO";
+
+// Accès à la variable modifiée
+print(instanceDeLaClass.VariableTest);
+
+
+
+
+
+
