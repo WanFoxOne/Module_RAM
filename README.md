@@ -5,13 +5,9 @@ Cours et exercices issues du module RAM
 Développement d'application pour IOS avec xCode et le langage Swift
 ```
 
-**Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
 ### Cours
 
-* [Cours 1](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* **Cours 1** - *07/09/17* - [Github](https://github.com/WanFoxOne/Module_RAM/blob/master/Cours_1.swift) - [Pastebin](https://pastebin.com/ubefTeA0)
 
 ## Contributing
 
