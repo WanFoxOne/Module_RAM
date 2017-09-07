@@ -1,4 +1,4 @@
-VERSION HIGHLIGHT : https://pastebin.com/ubefTeA0
+// VERSION HIGHLIGHT : https://pastebin.com/ubefTeA0
 
 // Déclaration de variables
 var valueTestA :Double = 2147483647; // var : variable susceptible d'être modifiée
