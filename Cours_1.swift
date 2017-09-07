@@ -131,3 +131,33 @@ func fonctionAvecNombreArgumentVariable (variablesDeTypeDouble :Double...) -> Do
 }
 
 fonctionAvecNombreArgumentVariable (variablesDeTypeDouble: 8, 11, 12);
+
+
+// -------------------------------------------------------------------------------------------
+
+// Fermeture
+
+// Fonctions globales : une fermeture qui possède un nom mais qui ne capture rien.
+// Fonctions imbriqués : possède un nom et peut capturer des valeurs de son environnement.
+// Expression de fermeture : fermeture sans nom, écrite dans une syntaxe allégée.
+
+
+
+// -------------------------------------------------------------------------------------------
+
+// Les classes
+
+class NomDeLaClasse { // Nom de la classe avec une majuscule obligatoire
+	
+	public var VariableTest :String = "Test";
+	
+	func fonctionDansLaClasse () {
+		print ("Test");
+	}
+}
+
+// Création d'une instance de la classe
+var instanceDeLaClass = NomDeLaClasse();
+
+// Accès à la variable publique de la classe
+print(instanceDeLaClass.VariableTest);
