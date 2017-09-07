@@ -4,8 +4,7 @@ Cours et exercices issues du module RAM
 ```
 Développement d'application pour IOS avec xCode et le langage Swift
 ```
-[Documentation en ligne de Swift](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)
-<a href="example.com" target="_blank">New Tab</a>
+<a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309" target="_blank">Documentation en ligne de Swift</a>
 
 ### Cours
 
