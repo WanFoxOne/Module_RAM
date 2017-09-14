@@ -7,6 +7,7 @@ import Foundation
 let listeEtudiants = ["Robert Martin MMI1","Anne Dupond I2M", "Jean Jacques GEII","Isabelle Laporte I2M", "Sophie Legrand GEII","Francois Gerard I2M","Alice Martin SRC" ]
 
 //Question 2:
+
 let noteEtu = [
 	"Robert Martin":10,
 	"Anne Dupond":5, 
@@ -28,6 +29,7 @@ let ToutesNoteEtu = [
 ]
 
 //Question 4:
+
 print("Moyenne\n")
 for (etu,tabN) in ToutesNoteEtu {
 	var s = 0
@@ -39,6 +41,7 @@ for (etu,tabN) in ToutesNoteEtu {
 }
 
 //Question 5:
+
 print("Max\n")
 for (etu,tabN) in ToutesNoteEtu {
 	var max = 0
@@ -50,7 +53,8 @@ for (etu,tabN) in ToutesNoteEtu {
 	print("nom: \(etu) note: \(max)")
 }
 
-//Question 6
+//Question 6:
+
 var mmi = [String]()
 var geii = [String]()
 var i2m = [String]()
@@ -74,7 +78,7 @@ for etud in listeEtudiants
 	}
 }
 
-//Question 7
+//Question 7:
 
 print("Question 7\n")
 
@@ -108,7 +112,7 @@ test.sort(by: s)
 
 //test.sort(by: { $0 < $1 })//Methode flemmard similaire a la func s
 
-//Question 8
+//Question 8:
 
 print("Question 8\n")
 
