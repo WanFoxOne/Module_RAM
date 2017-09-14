@@ -9,8 +9,8 @@ Développement d'application pour IOS avec xCode et le langage Swift
 
 ### Cours
 
-* **Cours 1** - *07/09/17* - [Github](ram_070917_corler_cours_1.swift) - [Pastebin](https://pastebin.com/ubefTeA0)
-* **Exercices 1** - *14/09/17* - [Github](ram_140917_corler_cours_2.swift)
+* **Cours 1** - *07/09/17* - [Github](ram_070917_corler_cours_1.swift) - [Pastebin](ram_070917_cours_1.swift)
+* **Exercices 1** - *14/09/17* - [Dossier Github](Exercices_1)
 
 ### Auteurs
 
