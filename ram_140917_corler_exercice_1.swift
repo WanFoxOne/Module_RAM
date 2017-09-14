@@ -1,2 +1,2 @@
-![Recto](https://i.imgur.com/3z30fwa.jpg)
+![Recto](http://i.imgur.com/3z30fwa.jpg)
 
