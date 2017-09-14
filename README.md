@@ -14,3 +14,5 @@ Développement d'application pour IOS avec xCode et le langage Swift
 ### Auteur(s)
 
 * **CORLER Damien**
+* **ADAM Jason**
+* **DEMOIS Alexis**
