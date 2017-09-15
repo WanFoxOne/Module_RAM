@@ -1,4 +1,4 @@
-# Module RAM10
+# Module RAM
 
 Cours et exercices issues du module RAM
 ```
