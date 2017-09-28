@@ -9,10 +9,13 @@ Développement d'application pour IOS avec xCode et le langage Swift
 
 ### Cours
 
-* [**Les variables** - *28/09/17*](Cours/Les variables.md)
-* [**Les structures de contrôle** - *28/09/17*](Cours/Les structures de contrôle.md)
+* **Les variables** - *28/09/17* [GitHub](Cours/Les variables.md)
+* **Les structures de contrôle** - *28/09/17* [GitHub](Cours/Les structures de contrôle.md)
+* **Les fonctions** - *28/09/17* [GitHub](Cours/Les fonctions.md)
+* **Les fermeturess** - *28/09/17* [GitHub](Cours/Les fermetures.md)
+* **Les classes** - *28/09/17* [GitHub](Cours/Les classes.md)
 
-* **Cours 1** - *07/09/17* - [Github](Cours/ram_070917_cours_1.swift) - [Pastebin](https://pastebin.com/ubefTeA0)
+* **Cours complet de la séance 1** - *07/09/17* - [Github](Cours/ram_070917_cours_1.swift) - [Pastebin](https://pastebin.com/ubefTeA0)
 * **Exercices 1** - *14/09/17* - [Dossier Github](Exercices/Exercices_1)
 
 ### Auteurs
