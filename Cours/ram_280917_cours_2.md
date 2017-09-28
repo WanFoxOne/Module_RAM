@@ -45,5 +45,5 @@ enum Orientation {
 **Fonction générique:**
 
 -Possibilité de définir une méthode utilisant un type générique
--Sntaxe : utilisatioin de <*NomRepresentantType*> après le nom de la fonction
+-Syntaxe : utilisatioin de <*NomRepresentantType*> après le nom de la fonction
 -Exemple:
