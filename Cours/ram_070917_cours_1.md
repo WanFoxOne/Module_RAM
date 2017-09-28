@@ -125,8 +125,11 @@ func fonctionDeTestAdvanced (variableDeTypeString :String = "NO DATA") -> String
 	return variableDeTypeString;
 }
 
-fonctionDeTestAdvanced(); // Appel de la fonction sans les paramètres (possible car une valeur par défaut est déclarée et est utilisée -> "NO DATA")
-fonctionDeTestAdvanced(variableDeTypeString: "Test"); // Appel de la fonction avec en paramètre le texte "Test"
+// Appel de la fonction sans les paramètres (possible car une valeur par défaut est déclarée et est utilisée -> "NO DATA")
+fonctionDeTestAdvanced(); 
+
+// Appel de la fonction avec en paramètre le texte "Pingouin"
+fonctionDeTestAdvanced(variableDeTypeString: "Pingouin");
 ```
 
 Il est possible de récupérer un nombre non défini d'arguments, comme ici pour calculer une moyenne
@@ -143,20 +146,18 @@ func fonctionAvecNombreArgumentVariable (variablesDeTypeDouble :Double...) -> Do
 fonctionAvecNombreArgumentVariable (variablesDeTypeDouble: 8, 11, 12);
 ```
 
-// -------------------------------------------------------------------------------------------
-
-// Fermeture
-
-// Fonctions globales : une fermeture qui possède un nom mais qui ne capture rien.
-// Fonctions imbriqués : possède un nom et peut capturer des valeurs de son environnement.
-// Expression de fermeture : fermeture sans nom, écrite dans une syntaxe allégée.
 
 
+# Les fermetures
 
-// -------------------------------------------------------------------------------------------
+- **Fonctions globales** : une fermeture qui possède un nom mais qui ne capture rien.
+- **Fonctions imbriqués** : possède un nom et peut capturer des valeurs de son environnement.
+- **Expression de fermeture** : fermeture sans nom, écrite dans une syntaxe allégée.
 
-// Les classes
 
+
+# Les classes
+```Swift
 class NomDeLaClasse { // Nom de la classe avec une majuscule obligatoire
 	
 	public var VariableTest :String = "Test";
@@ -165,21 +166,20 @@ class NomDeLaClasse { // Nom de la classe avec une majuscule obligatoire
 		print ("Test");
 	}
 }
-
-// Création d'une instance de la classe
-let instanceDeLaClass = NomDeLaClasse();
-
-// Accès à la variable publique de la classe
-print(instanceDeLaClass.VariableTest);
-
-// Modification de la variable dans l'instance (et non dans la classe directement)
-instanceDeLaClass.VariableTest = "Test YOLO";
-
-// Accès à la variable modifiée
-print(instanceDeLaClass.VariableTest);
-
 ```
-
-
-
-
+Création d'une instance de la classe
+```Swift
+let instanceDeLaClass = NomDeLaClasse();
+```
+Accès à la variable publique de la classe
+```Swift
+print(instanceDeLaClass.VariableTest);
+```
+Modification de la variable dans l'instance (et non dans la classe directement)
+```Swift
+instanceDeLaClass.VariableTest = "Test YOLO";
+```
+Accès à la variable modifiée
+```Swift
+print(instanceDeLaClass.VariableTest);
+```
