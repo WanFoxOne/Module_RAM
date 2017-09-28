@@ -1,3 +1,4 @@
+```Swift
 // Observateurs de propriété
 
 var myTestProperty :Int = 0 {
@@ -21,6 +22,7 @@ enum Orientation {
     case Est;
     case Ouest;
 }
+```
 
 
 // ---------------------------------------------------------------
