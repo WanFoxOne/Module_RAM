@@ -31,6 +31,14 @@ enum Orientation {
 - Pas de conversion de type à l'exécution
 - Pas de méthode "deinit"
 
-
+Différences importantes:
 - Les **affectations** ou **passage en paramètres** sont toujours réalisés par **copie**.
 - Toutes les structures ont des initialiseurs automatiquement générés
+
+Caractéristiques communes:
+-Peuvent être étendue (grace aux extensions)
+-Peuvent être conforme à un protocole
+-Peuvent éfinir des sous scripts
+
+Fonction générique:
+-Possibilité de définir une méthode utilisant un type générique
