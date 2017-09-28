@@ -30,16 +30,11 @@ var emptyDico = Dictionary<String, Int>();
 ```
 
 
-# Structure de contrôle
 
+# Les structures de contrôle
+
+**for-in**
 ```Swift
-
-// -------------------------------------------------------------------------------------------
-
-// Structure de contrôle
-
-// for-in ****************************
-
 for i in 1...5 {
     print ( i );
 }
@@ -51,26 +46,29 @@ for i in liste {
 for (a, b) in dico {
 	print ( "Clé : \(a) / Valeur : \(b)" );
 }
+```
 
-// while *****************************
-
+**while**
+```Swift
 var valueForWhile :Int = 0;
 while valueForWhile < 5 {
 	print(valueForWhile);
 	valueForWhile += 1;
 }
+```
 
-// if ********************************
-
+**if**
+```Swift
 var valueForIf :Int = 15;
 if valueForIf >= 10 {
 	print ("Good");
 } else {
 	print ("Evil");
 }
+```
 
-// switch ****************************
-
+**switch**
+```Swift
 var valueForSwitchRanges :Int = 14;
 switch valueForSwitchRanges {
 	case 10, 11:
@@ -106,19 +104,22 @@ switch valueForSwitchAdvanced {
 	default:
 		print ("Pas de résultat");
 }
+```
 
 
-// -------------------------------------------------------------------------------------------
 
-// Fonctions
+# Les fonctions
 
+```Swift
 func fonctionDeTest () {
 	print ("Result fonctionDeTest");
 }
 
 fonctionDeTest();  // Appel de la fonction
+```
 
-// Nom de la fonction, suivi par un ou plusieurs arguments et de leurs types (falcultatif), puis le type de retour de la fonction (falcultatif si l'on ne souhaite aucun retour de fonction)
+Nom de la fonction, suivi par un ou plusieurs arguments et de leurs types (falcultatif), puis le type de retour de la fonction (falcultatif si l'on ne souhaite aucun retour de fonction)
+```Swift
 func fonctionDeTestAdvanced (variableDeTypeString :String = "NO DATA") -> String { 
 	print (variableDeTypeString);
 	return variableDeTypeString;
@@ -126,8 +127,10 @@ func fonctionDeTestAdvanced (variableDeTypeString :String = "NO DATA") -> String
 
 fonctionDeTestAdvanced(); // Appel de la fonction sans les paramètres (possible car une valeur par défaut est déclarée et est utilisée -> "NO DATA")
 fonctionDeTestAdvanced(variableDeTypeString: "Test"); // Appel de la fonction avec en paramètre le texte "Test"
+```
 
-// Il est possible de récupérer un nombre non défini d'arguments, comme ici pour calculer une moyenne
+Il est possible de récupérer un nombre non défini d'arguments, comme ici pour calculer une moyenne
+```Swift
 func fonctionAvecNombreArgumentVariable (variablesDeTypeDouble :Double...) -> Double {
 	var somme :Double = 0;
 	for i in variablesDeTypeDouble {
@@ -138,7 +141,7 @@ func fonctionAvecNombreArgumentVariable (variablesDeTypeDouble :Double...) -> Do
 }
 
 fonctionAvecNombreArgumentVariable (variablesDeTypeDouble: 8, 11, 12);
-
+```
 
 // -------------------------------------------------------------------------------------------
 
