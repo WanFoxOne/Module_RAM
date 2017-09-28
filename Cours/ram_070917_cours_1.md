@@ -1,3 +1,6 @@
+
+# Les variables
+
 Déclaration de variables
 ```Swift
 var valueTestA :Double = 2147483647; // var : variable susceptible d'être modifiée
