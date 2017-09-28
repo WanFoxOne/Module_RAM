@@ -145,5 +145,5 @@ Définir un élément dans une conditionel :
 if let uneNote: Int? = ensembleNotes["jean"]?[0]{
   print("Note de Jean : \(uneNote)");
 }
-//Affichera "Note de jean : optionnal (10)
+//Affichera "Note de jean : 10)
 ```
