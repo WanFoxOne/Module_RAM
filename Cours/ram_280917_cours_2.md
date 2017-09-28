@@ -77,7 +77,7 @@ echangeValeur(a: &a, b: &b); //a vaudra désormais 42 et b 23
 ```Swift
 //Exemple
 
-classe I2M<TypeCaract>{
+class I2M<TypeCaract>{
   var numEleves = 20;
   var caracteristiques: TypeCaract;
   init(a: TypeCaract){
