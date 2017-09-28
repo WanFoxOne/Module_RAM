@@ -1,5 +1,6 @@
-// VERSION HIGHLIGHT : https://pastebin.com/ubefTeA0
+### VERSION HIGHLIGHT : https://pastebin.com/ubefTeA0
 
+```Swift
 // Déclaration de variables
 var valueTestA :Double = 2147483647; // var : variable susceptible d'être modifiée
 let 🐱 :Double = 10.214; // let : constante, variable fixe
@@ -26,6 +27,11 @@ print ("Dico : \(dico["Test2"]!)");
 var emptyArray = [String]();
 var emptyDico = Dictionary<String, Int>();
 
+```
+
+# Structure de contrôle
+
+```Swift
 
 // -------------------------------------------------------------------------------------------
 
@@ -168,7 +174,7 @@ instanceDeLaClass.VariableTest = "Test YOLO";
 // Accès à la variable modifiée
 print(instanceDeLaClass.VariableTest);
 
-
+```
 
 
 
