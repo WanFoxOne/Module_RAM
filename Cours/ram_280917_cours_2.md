@@ -95,8 +95,8 @@ let laClasse = I2M<Int>(a:4);
 ```
   - Le qualificatif *optionnel* s'utilise dans les situations où un élément peut potentiellement ne pas avoir de valeur
   - Un élément optionnel de type T peut être dans **deux configurations** :
-      => Posséder une certaine valeur de type T
-      => N'avoir aucun élément
+=> Posséder une certaine valeur de type T
+=> N'avoir aucun élément
 ```Swift
 var ensembleNote = ["Jean": 10, "Paul": 13, "Michel": 20];
 var uneNote: Int? = ensembleNote["Jean"];
