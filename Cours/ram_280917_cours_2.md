@@ -38,12 +38,12 @@ enum Orientation {
 
 **Caractéristiques communes:**
 
--Peuvent être étendue (grace aux extensions)
--Peuvent être conforme à un protocole
--Peuvent éfinir des sous scripts
+- Peuvent être étendue (grace aux extensions)
+- Peuvent être conforme à un protocole
+- Peuvent éfinir des sous scripts
 
 **Fonction générique:**
 
--Possibilité de définir une méthode utilisant un type générique
--Syntaxe : utilisatioin de <*NomRepresentantType*> après le nom de la fonction
--Exemple:
+- Possibilité de définir une méthode utilisant un type générique
+- Syntaxe : utilisatioin de <*NomRepresentantType*> après le nom de la fonction
+- Exemple:
