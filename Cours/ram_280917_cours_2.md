@@ -31,4 +31,6 @@ enum Orientation {
 - Pas de conversion de type à l'exécution
 - Pas de méthode "deinit"
 
+
 - Les **affectations** ou **passage en paramètres** sont toujours réalisés par **copie**.
+- Toutes les structures ont des initialiseurs automatiquement générés
