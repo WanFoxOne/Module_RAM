@@ -125,7 +125,8 @@ func fonctionDeTestAdvanced (variableDeTypeString :String = "NO DATA") -> String
 	return variableDeTypeString;
 }
 
-// Appel de la fonction sans les paramètres (possible car une valeur par défaut est déclarée et est utilisée -> "NO DATA")
+// Appel de la fonction sans les paramètres (possible car une valeur par défaut 
+// est déclarée et est utilisée -> "NO DATA")
 fonctionDeTestAdvanced(); 
 
 // Appel de la fonction avec en paramètre le texte "Pingouin"
