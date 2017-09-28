@@ -25,12 +25,10 @@ enum Orientation {
 ```
 
 
-// ---------------------------------------------------------------
-// Les structures
-// ---------------------------------------------------------------
+# Les structures
 
-// Pas d'héritages
-// Pas de conversion de type à l'exécution
-// Pas de méthode "deinit"
+- Pas d'héritages
+- Pas de conversion de type à l'exécution
+- Pas de méthode "deinit"
 
-// -> Les affectations ou passage en paramètres sont toujours réalisés par copie.
+- Les **affectations** ou **passage en paramètres** sont toujours réalisés par **copie**.
