@@ -95,6 +95,7 @@ let laClasse = I2M<Int>(a:4);
 ```
   - Le qualificatif *optionnel* s'utilise dans les situations où un élément peut potentiellement ne pas avoir de valeur
   - Un élément optionnel de type T peut être dans **deux configurations:**
+  
 => Posséder une certaine valeur de type T
 => N'avoir aucun élément
 ```Swift
@@ -102,3 +103,25 @@ var ensembleNote = ["Jean": 10, "Paul": 13, "Michel": 20];
 var uneNote: Int? = ensembleNote["Jean"];
 ```
 => uneNote doit être déclarée comme étant *optionnel* car le dictionnaire ensembleNote ne contient pas forcément l'élément associé à la clé demandée
+
+- Il est possible d'accéder à une méthode/attribut/sous-scripts sur un élément qualifié d'optionnel en utilisant le symbole "?" placé juste après l'élément
+```Swift
+var ensembleNote = ["Jean": [10,13], "Paul": [13,], "Michel": [20] ];
+var uneNote = ensembleNote["Jean"]?[0];
+```
+- Si l'élément à gauche du ? est vide (null) alors toute l'expression est remplacée par null
+
+```Swift
+var uneNote = ensembleNotes ["Robert"]?[0]; //une note qui sera égale a null
+```
+- La qualification optionnel se propage lors d'une affectation
+
+```Swift
+var uneNote: Int? = ensembleNotes["jean"]?[0];
+```
+
+- Possible de forcer la suppression de la qualification *optionnel* en rajoutant un point d'exclamation après l'élément
+
+```Swift
+var uneNote: Int? = ensembleNotes["jean"]![0];
+```
