@@ -50,11 +50,11 @@ enum Orientation {
 ```Swift
   //Exemple
   
-  func echangeValeur<T>(a: inout T, b: inout T){
+func echangeValeur<T>(a: inout T, b: inout T){
   let tempA = a;
   a = b;
   b = tempA;
-  }
+}
 
 var toto = "salut";
 var titi = "coucou";
