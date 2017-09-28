@@ -68,5 +68,19 @@ Deux possibilités
 var a = 23;
 var b = 42;
 
-echangeValeur(a: &a, b: &b) //a vaudra désormais 42 et b 23
+echangeValeur(a: &a, b: &b); //a vaudra désormais 42 et b 23
+```
+**Classe générique**
+- Possibilité de définir une classe
+
+```Swift
+classe I2M<TypeCaract>{
+  var numEleves = 20;
+  var caracteristiques: TypeCaract;
+  init(a: TypeCaract){
+    caracteristiques=a;
+   }
+}
+
+let laClasse = I2M<Int>(a:4);
 ```
