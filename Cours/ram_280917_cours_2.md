@@ -46,9 +46,10 @@ enum Orientation {
 
 - Possibilité de définir une méthode utilisant un type générique
 - Syntaxe : utilisatioin de <*NomRepresentantType*> après le nom de la fonction
-- Exemple:
 
 ```Swift
+  //Exemple
+  
   func echangeValeur<T>(a: inout T, b: inout T){
   let tempA = a;
   a = b;
