@@ -14,7 +14,7 @@ Développement d'application pour IOS avec xCode et le langage Swift
 * [**Les fonctions** - *28/09/17*](Cours/Les_fonctions.md)
 * [**Les fermetures** - *28/09/17*](Cours/Les_fermetures.md) *Besoin d'une completion !*
 * [**Les classes** - *28/09/17*](Cours/Les_classes.md)
-<br/>;
+<br/>
 * **Cours complet de la séance 1** - *07/09/17* - [Github](Cours/ram_070917_cours_1.swift) - [Pastebin](https://pastebin.com/ubefTeA0)
 * **Exercices 1** - *14/09/17* - [Dossier Github](Exercices/Exercices_1)
 
