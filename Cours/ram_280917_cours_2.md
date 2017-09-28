@@ -72,8 +72,11 @@ echangeValeur(a: &a, b: &b); //a vaudra désormais 42 et b 23
 ```
 **Classe générique**
 - Possibilité de définir une classe
+- Syntaxe  utilisation de <NomRepresentantType> après le nom de la classe
 
 ```Swift
+//Exemple
+
 classe I2M<TypeCaract>{
   var numEleves = 20;
   var caracteristiques: TypeCaract;
@@ -84,3 +87,19 @@ classe I2M<TypeCaract>{
 
 let laClasse = I2M<Int>(a:4);
 ```
+**Elements optionnels :**
+- En *Swift* il est possible de définir des éléments (variables ou constantes) comme étant optionnel
+    => Rajouter un point d'interrogation après le type
+  ```Swift
+  var uneAdresse: String?; //c'est optionnel, peut être NULL
+  ```
+  - Le qualificatif *optionnel* s'utilise dans les situations où un élément peut potentiellement ne pas avoir de valeur
+  - Un élément optionnel de type T peut être dans **deux configurations** :
+      => Posséder une certaine valeur de type T
+      => N'avoir aucun élément
+```Swift
+var ensembleNote = ["Jean": 10, "Paul": 13, "Michel": 20];
+var uneNote: Int? = ensembleNote["Jean"];
+```
+=> uneNote doit ê
+tre déclarée comme étant *optionnel* car le dictionnaire ensembleNote ne contient pas
