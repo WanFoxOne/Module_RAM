@@ -59,6 +59,14 @@ func echangeValeur<T>(a: inout T, b: inout T){
 var toto = "salut";
 var titi = "coucou";
 
-echangeValeur(a: &toto, b&titi);
 print(("\(titi)"));
+```
+**Appel de fonction générique**
+Deux possibilités
+- simple appel avec des éléments qui définissent le type générique
+```Swift
+var a = 23;
+var b = 42;
+
+echangeValeur(a: &a, b: &b) //a vaudra désormais 42 et b 23
 ```
