@@ -6,3 +6,17 @@ var myTestProperty :Int = 0 {
     print ("Après affectation...");
   }
 }
+
+Enumeration
+-Utilise enum pour definir une énumération
+
+Exemple :
+
+enum Orientation {
+	case Nord
+	case Sud
+	case Est
+	case Ouest
+}
+
+var direction = Orientation.Nord
