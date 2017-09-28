@@ -19,9 +19,6 @@ print(instanceDeLaClass.VariableTest);
 ```
 Modification de la variable dans l'instance (et non dans la classe directement)
 ```Swift
-instanceDeLaClass.VariableTest = "Test YOLO";
-```
-Accès à la variable modifiée
-```Swift
+instanceDeLaClass.VariableTest = "Otarie";
 print(instanceDeLaClass.VariableTest);
 ```
