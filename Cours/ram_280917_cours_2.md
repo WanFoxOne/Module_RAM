@@ -125,3 +125,25 @@ var uneNote: Int? = ensembleNotes["jean"]?[0];
 ```Swift
 var uneNote: Int? = ensembleNotes["jean"]![0];
 ```
+**test sur un élément optionnel**
+Possiblité de tester si un élément optionnel contient o non une valeur :
+=> le comparer à nil
+
+```Swift
+var uneNote: Int? = ensembleNotes["jean"]?[0];
+if uneNote != nil {
+  print("Note de Jean : \(uneNote)");
+}
+//Affichera "Note de jean : optionnal (10)
+```
+
+**Autre possiblité**
+Définir un élément dans une conditionel :
+=> Dans ce cas l'élément sera automatiquement non *optionnel*
+
+```Swift
+if let uneNote: Int? = ensembleNotes["jean"]?[0]{
+  print("Note de Jean : \(uneNote)");
+}
+//Affichera "Note de jean : optionnal (10)
+```
