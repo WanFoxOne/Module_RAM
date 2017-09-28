@@ -101,4 +101,4 @@ let laClasse = I2M<Int>(a:4);
 var ensembleNote = ["Jean": 10, "Paul": 13, "Michel": 20];
 var uneNote: Int? = ensembleNote["Jean"];
 ```
-=> uneNote doit être déclarée comme étant *optionnel* car le dictionnaire ensembleNote ne contient pas
+=> uneNote doit être déclarée comme étant *optionnel* car le dictionnaire ensembleNote ne contient pas forcément l'élément associé à la clé demandée
