@@ -1,3 +1,5 @@
+// Observateurs de propriété
+
 var myTestProperty :Int = 0 {
   willSet {
     print ("Avant affectation...");
@@ -7,16 +9,15 @@ var myTestProperty :Int = 0 {
   }
 }
 
-Enumeration
--Utilise enum pour definir une énumération
 
-Exemple :
-
-enum Orientation {
-	case Nord
-	case Sud
-	case Est
-	case Ouest
+// Énumération
+enum uneEnumeration {
+    
 }
 
-var direction = Orientation.Nord
+enum Orientation {
+    case Nord;
+    case Sud;
+    case Est;
+    case Ouest;
+}
