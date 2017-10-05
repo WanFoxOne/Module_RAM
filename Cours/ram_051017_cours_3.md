@@ -18,3 +18,15 @@ struct UneStruct: PremierProto, DeuxiemeProto {
   // Définition de la structure
 }
 ```
+
+### Contraintes
+- Un protocole peut spécifier des exigences sur les propriétés.
+- Uniquement dur le nom, le type de la propriété et le type d'accès : set/get exigé.
+- Pas de contraintes sur la façon dont est stockée/calculée la propriété.
+
+```Swift
+protocol Monprotocole {
+  var MaPropriétéAccesLectEcr : Int {get set}
+  var MaPropriétéAccesLect : Int {get}
+}
+```
