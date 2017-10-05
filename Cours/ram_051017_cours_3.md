@@ -26,8 +26,8 @@ struct UneStruct: PremierProto, DeuxiemeProto {
 
 ```Swift
 protocol Monprotocole {
-  var MaPropriétéAccesLectEcr : Int {get set}
-  var MaPropriétéAccesLect : Int {get}
+  var MaPropriétéAccesLectEcr : Int {get set};
+  var MaPropriétéAccesLect : Int {get};
 }
 ```
 Exemple :
@@ -35,4 +35,9 @@ Exemple :
 protocol Descriptible {
   var Description : String {get}
 }
+
+struct UnObjetAVendre : Descriptible {
+  var description :String;
+}
+let monOrdi = UnObjetAVendre (description : "Une description");
 ```
