@@ -33,11 +33,27 @@ protocol Monprotocole {
 Exemple :
 ```Swift
 protocol Descriptible {
-  var Description : String {get}
+  var Description : String {get};
 }
 
 struct UnObjetAVendre : Descriptible {
   var description :String;
 }
 let monOrdi = UnObjetAVendre (description : "Une description");
+```
+
+### Contraintes sur les méthodes
+> Un protocole peut spécifier des exigences sur la présence de méthode.
+Ces méthodes se déclarent comme une vraie méthode :
+```Swift
+protocol MonProtocole {
+  func maFonction();
+}
+```
+Exemple :
+```Swift
+protocol Descriptible {
+  var Description : String {get};
+  func calculPrix() -> Int;
+}
 ```
