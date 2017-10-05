@@ -19,6 +19,7 @@ Développement d'application pour IOS avec xCode et le langage Swift
 
 * **Cours complet de la séance 1** - *07/09/17* - [Github](Cours/ram_070917_cours_1.md) - [Pastebin](https://pastebin.com/ubefTeA0)
 * **Cours complet de la séance 2** - *28/09/17* - [Github](Cours/ram_280917_cours_2.md)
+* **Cours complet de la séance 3** - *05/10/17* - [Github](Cours/ram_051017_cours_3.md)
 * **Exercices 1** - *14/09/17* - [Dossier Github](Exercices/Exercices_1)
 
 ### Auteurs
