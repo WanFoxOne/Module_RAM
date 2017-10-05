@@ -82,3 +82,16 @@ extension UnType : UnProtocole, UnAutreProtocole {
   // Nouvelle fonctionnalité
 }
 ```
+
+Exemple :
+```Swift
+extension Double {
+  var km :Double { return self * 1_000.0 };
+  var m :Double { return self};
+  var cm :Double { return self / 100.0 };
+  var mm :Double { return self / 1_000.0 };
+}
+
+let oneInch = 25
+```
+
