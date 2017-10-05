@@ -5,3 +5,16 @@
 
 Le protocole ne propose aucune implémentation.
 Un protocole peut être adopté par une classe en implémentant les méthodes et propriétés requises.
+
+### Déclaration
+```Swift
+protocol Monprotocole {
+  // Définition du protocole
+}
+```
+Type adoptant ce protocole
+```Swift
+struct UneStruct: PremierProto, DeuxiemeProto{
+  // Définition de la structure
+}
+```
