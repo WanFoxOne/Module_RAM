@@ -1,6 +1,7 @@
 # Module RAM
 
 [[https://salsaspeaks.files.wordpress.com/2015/05/watch4.jpg|alt="Image"|height=100px]]
+[[https://pics.onsizzle.com/good-very-good-13888044.png|alt="Logo"|height=100px]]
 
 Cours et exercices issues du module RAM
 ```
