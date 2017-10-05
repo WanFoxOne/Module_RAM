@@ -1,5 +1,7 @@
 # Module RAM
 
+[[https://salsaspeaks.files.wordpress.com/2015/05/watch4.jpg|alt="Image"|height=100px]]
+
 Cours et exercices issues du module RAM
 ```
 Développement d'application pour IOS avec xCode et le langage Swift
