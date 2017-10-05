@@ -14,7 +14,7 @@ protocol Monprotocole {
 ```
 Type adoptant ce protocole
 ```Swift
-struct UneStruct: PremierProto, DeuxiemeProto{
+struct UneStruct: PremierProto, DeuxiemeProto {
   // Définition de la structure
 }
 ```
