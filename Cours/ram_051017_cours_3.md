@@ -69,3 +69,16 @@ __Un protocole peut être considéré comme un type, même si il n'implémente r
 - Définir et utiliser des sous types.
 - Peut permettre à une classe de devenir conforme à un protocole
 __On ne peut pas surcharger une méthode__
+
+Syntaxe :
+```Swift
+extension UnType {
+  // Nouvelle fonctionnalité
+}
+```
+Syntaxe quand une extension fait adopter un protocole :
+```Swift
+extension UnType : UnProtocole, UnAutreProtocole {
+  // Nouvelle fonctionnalité
+}
+```
