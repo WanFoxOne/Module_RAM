@@ -57,3 +57,5 @@ protocol Descriptible {
   func calculPrix() -> Int;
 }
 ```
+
+> Un protocole peut être considéré comme un type, même si il n'implémente rien.
