@@ -8,7 +8,7 @@ Un protocole peut être adopté par une classe en implémentant les méthodes et
 
 ### Déclaration
 ```Swift
-protocol Monprotocole {
+protocol MonProtocole {
   // Définition du protocole
 }
 ```
@@ -59,3 +59,13 @@ protocol Descriptible {
 ```
 #
 __Un protocole peut être considéré comme un type, même si il n'implémente rien.__
+
+
+# Extensions de classe
+- Rajouter des propriétés calculées d'instance ou de type.
+- Rajouter des méthodes d'instances et méthodes de types.
+- Fournir des nouveaux initialiseurs.
+- Définir des sous-scripts.
+- Définir et utiliser des sous types.
+- Peut permettre à une classe de devenir conforme à un protocole
+__On ne peut pas surcharger une méthode__
