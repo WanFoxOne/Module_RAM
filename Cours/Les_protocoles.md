@@ -8,7 +8,7 @@ Un protocole peut être adopté par une classe en implémentant les méthodes et
 
 ### Déclaration
 ```Swift
-protocol Monprotocole {
+protocol MonProtocole {
   // Définition du protocole
 }
 ```
