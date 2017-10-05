@@ -58,5 +58,5 @@ protocol Descriptible {
 }
 ```
 
-
+\n
 __Un protocole peut être considéré comme un type, même si il n'implémente rien.__
